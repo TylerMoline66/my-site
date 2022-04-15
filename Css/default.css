@@ -1,0 +1,56 @@
+:root {
+  --white: #FFFFFF;
+  --black: #1E2022;
+  --main-background: #1B3A4B;
+  --font-light: #838F9C;
+  --dark-blue-background: #253459;
+  --light-background: #FAFBFF;
+  --success: #5BC7A8;
+  --danger: 
+
+  
+  --size-5: 0.3125rem;
+  --size-10: 0.625rem;
+  --size-14: 0.875rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-30: 1.875rem;
+  --size-40: 2.5rem;
+  --size-50: 3.125rem;
+  --size-100: 6.25rem;
+  --size-150: 9.375rem;
+  --size-200: 12.5rem;
+  --size-300: 18.75rem;
+  --size-400: 25rem;
+  --size-500: 31.25rem;
+}
+
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--main-background);
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
