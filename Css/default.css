@@ -74,3 +74,8 @@ lord-icon {
 lord-icon:hover {
   transform: scale(1.2);
 }
+
+.final-a {
+  font-size: var(--size-10);
+  color: #404758;
+}
