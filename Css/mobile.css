@@ -29,6 +29,15 @@
 }
 
 @media screen and (max-width: 430px) {
+  [aria-expanded="true"] ~ ul {
+    width: 37%;
+    background-image: none;
+    background-color: var(--main-background);
+    border: 1px solid #a95834;
+    border-radius: var(--size-10);
+    margin-right: var(--size-20);
+  }
+
   .navbar {
     padding: 0;
   }
