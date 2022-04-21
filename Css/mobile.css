@@ -38,6 +38,15 @@
     margin-right: var(--size-20);
   }
 
+  .home-section {
+    margin-left: 25px;
+  }
+  .about-me,
+  .my-writing,
+  .my-projects {
+    margin-left: 60px;
+  }
+
   .navbar {
     padding: 0;
   }
