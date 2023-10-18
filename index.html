@@ -20,12 +20,20 @@
       href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Code+Pro:wght@400;500;600;800&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <link rel="stylesheet" href="./Css/default.css" />
     <link rel="stylesheet" href="./Css/index.css" />
     <link rel="stylesheet" href="./Css/mobile.css" />
+    <link rel="stylesheet" href="./Css/circles.css" />
   </head>
   <body>
+    <div id="clickableDiv" class="hiding-sticky-section">
+      <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1697600185/Tylers-site/at-sign_urh3er.png" alt="">
+   </div>
     <!-- NAVBAR -->
     <nav id="topNav" class="navbar nav">
       <div class="container">
@@ -51,46 +59,25 @@
         <ul class="navbar-nav">
           <li class="nav-link">
             <a href="#homeSection">
-              <lord-icon
-                src="https://cdn.lordicon.com/gmzxduhd.json"
-                trigger="loop-on-hover"
-                colors="primary:#b4b4b4,secondary:#e86830"
-                style="width: 80px; height: 80px"
-              >
-              </lord-icon
-            ></a>
+              Home
+            </a>
           </li>
           <li class="nav-link">
             <a href="#aboutMe">
-              <lord-icon
-                src="https://cdn.lordicon.com/nobciafz.json"
-                trigger="loop-on-hover"
-                colors="primary:#b4b4b4,secondary:#e86830"
-                style="width: 80px; height: 80px"
-              >
+              About Me
               </lord-icon
             ></a>
           </li>
           <li class="nav-link">
             <a href="#myWriting">
-              <lord-icon
-                src="https://cdn.lordicon.com/wloilxuq.json"
-                trigger="loop-on-hover"
-                colors="primary:#b4b4b4,secondary:#e86830"
-                state="hover-1"
-                style="width: 80px; height: 80px"
-              >
+              My work
+              
               </lord-icon>
             </a>
           </li>
           <li class="nav-link">
             <a href="#myProjects">
-              <lord-icon
-                src="https://cdn.lordicon.com/qhgmphtg.json"
-                trigger="loop-on-hover"
-                colors="primary:#b4b4b4,secondary:#e86830"
-                style="width: 80px; height: 80px"
-              >
+             My Projects
               </lord-icon>
             </a>
           </li>
@@ -99,7 +86,9 @@
     </nav>
 
         <!-- Aside sticky socials -->
-        <section class="left-sticky">
+
+        
+        <section id="leftSticky" class="left-sticky animate__animated animate__slideInUp ">
           <div class="sticky-socials">
             <div class="email-info">
               <a href="mailto:tylermoline95@gmail.com">tylermoline95@gmail.com</a>
@@ -127,110 +116,66 @@
         /></a>
             </div>
         </section>
-
-    <!-- Main first image -->
-    <section>
-      <div id="pageTop" class="big-main-img"></div>
-    </section>
+  
 
     <!-- HEADER -->
     <header>
       <div class="full-header">
         <div class="main-header">
-<div class="header-bubbles">
-  <lord-icon
-  src="https://cdn.lordicon.com/dtgezzsi.json"
-  trigger="loop"
-  delay="1500"
-  colors="primary:#b4b4b4,secondary:#e86830"
-  style="width:250px;height:250px">
-</lord-icon>
-        <h1>Hello there!</h1>
-</div>
-          <h2>My Name is Tyler Moline, thanks for dropping by!</h2>
+          <div class="header-words">
+            <h1>Welcome!</h1>
           <p>
-            Software Developer and web desinger based out of Utah county. I love
-            to write clean code that makes sense, is simple and does its task
-            well. Welcome to my site! come and take a look around, learn a
-            little about me and see some work ive completed!
-          </p>
+            Hello! Welcome to my personal corner of the internet! I'm excited to share my passion and projects with you. Whether it's web design, gaming, coding, or other creative pursuits, I've put my heart and soul into each one. Join me in exploring the digital world I've created!
+          </p> 
+          </div>
+         
+
+            <div class="circle-container">
+              <svg class="guide-circle" viewbox="0 0 64 64"><circle r="28" cx="32" cy="32" class="circle"/></svg>
+              <ul>
+                
+                  <li><div class="tech-1">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058645/Tylers-site/github_iphgmj.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-2">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/git_ysri3p.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-3">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/html-5_1_qzt4q3.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-4">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/css-3_dvtbkf.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-5">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/js_bnra77.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-6">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1696474578/Tylers-site/library_1_dkhplj.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-7">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1696457600/Tylers-site/python_1_jsouhi.png" alt="tech btn">
+                  </div></li>
+                  <li> <div class="tech-8">
+                  <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1696457656/Tylers-site/sql-server_1_ylsqi6.png" alt="tech btn">
+                </div></li>
+               
+              </ul>	
+            </div>
+        
+            
+          <!-- </div> -->
+          </div>
         </div>
+      </header>
+      <div class="down-arrow">
+        <a href="#myWork"><img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1697580763/Tylers-site/down-arrow_te5azv.png" alt=""></a>
       </div>
-    </header>
 
 
 
     <!-- Home section -->
     <section id="homeSection" class="home-section">
-      <div class="moving-icons-home">
-        <div class="icon-and-info-wrapper">
-          <a href="#homeSection">
-            <lord-icon
-              src="https://cdn.lordicon.com/hjbsbdhw.json"
-              trigger="loop-on-hover"
-              colors="primary:#3a3347,secondary:#e86830,tertiary:#b26836,quaternary:#ebe6ef"
-              style="width: 250px; height: 250px"
-            >
-            </lord-icon>
-          </a>
-          <h2>Home</h2>
-          <p>
-            This is my sites home, a little intro about me and access to the other
-            sections of the page. Home is where the heart is
-          </p>
-        </div>
-
-        <div class="icon-and-info-wrapper">
-          <a href="#aboutMe">
-            <lord-icon
-            src="https://cdn.lordicon.com/jnlncdtk.json"
-            trigger="loop-on-hover"
-            colors="primary:#646e78,secondary:#f4dc9c,tertiary:#4faef9,quaternary:#f3c3ba,quinary:#e7e2eb"
-            style="width: 250px; height: 250px"
-          >
-          </lord-icon>
-          </a>
-         <h2>About Me</h2>
-          <p>
-            This section is a little bit about me, Who I am and what drives me,
-            and also about the technologies I know!
-          </p>
-        </div>
-
-        <div class="icon-and-info-wrapper">
-          <a href="#myWriting">
-            <lord-icon
-            src="https://cdn.lordicon.com/bxxnzvfm.json"
-            trigger="loop-on-hover"
-            style="width: 250px; height: 250px"
-          >
-          </a>
-
-          </lord-icon>
-          <h2>Writing</h2>
-          <p>
-            Here you will find writing I have done through my learning process,
-            you can also find my linkedin account here!
-          </p>
-        </div>
-
-        <div class="icon-and-info-wrapper">
-          <a href="#myProjects">
-            <lord-icon
-            src="https://cdn.lordicon.com/pxecqsgb.json"
-            trigger="loop-on-hover"
-            colors="primary:#faddd1,secondary:#b4b4b4"
-            style="width: 250px; height: 250px"
-          >
-          </a>
-          </lord-icon>
-          <h2>Projects</h2>
-          <p>
-            This is where you can find projects I have worked on and completed.
-            Also some links to my git hub profile and such!
-          </p>
-        </div>
-      </div>
+      
     </section>
 
     <!-- About me section -->
@@ -239,59 +184,43 @@
         <div class="about-me-img-info">
           <div class="pic-and-bullet">
             <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650395686/Tylers-site/IMG_6701_rvdgj0.jpg" alt="Tys photo">
-            <ol>
-              <li>Family</li>
-              <li>Coding</li>
-              <li>Games</li>
-            </ol>
+           
           </div>
-          <p>Tyler Moline, Thats my name, coding is the game. I absolutely love coding! Being able to create so much with a keyboard and mouse still takes me breath away. Before my career in tech I had a totally different life, I worked in construction since highschool, in fact before my journey into tech started I owned my own construction company! After much thought, I realized construction was always an easy choice for me, easy to get into, even relatively easy to start a company. Even though it was easy it wasn't what I was passionate about. So with that thought I started looking, and I couldn't find anything I felt passionate about, that is till I found coding. A whole world where you can build and create from your finger tips. I love it! Im passionate about all things tech, I love learning and staying frequent! I started teaching myself small things, took some inexpensive beginner courses and later found devslopes web academy! Weather your here to look at me for a job or to see if I can help you with a personal project reach out to me! I would love to help you!</p>
+         <div class="about-me-paragraph">
+          <p>
+            After spending several years in the construction industry, I had a profound realization. I had consistently opted for the easy route, but it was time for a change. The world of coding, I soon discovered, was where my true passion resided. Taking a leap of faith, I ventured beyond my comfort zone to pursue this new calling.
+            
+            Yet, beyond the screen and keyboard, my heart is firmly rooted in my incredible family. Quality time with my two wonderful kids and my loving wife is what life's all about for me. We savor the simple joys life has to offer. And when I'm not in dad mode or immersed in coding, I dive into gaming – be it around a table with friends or online. It's my way of unwinding and forging connections through virtual adventures.</p>
+         </div>
         </div>
       </div>
-      <div class="technologies">
-        <h2>Heres a look into some of the technologies im comfortable with</h2>
-        <div class="tech-1">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058645/Tylers-site/github_iphgmj.png" alt="tech btn">
-        </div>
-        <div class="tech-2">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/git_ysri3p.png" alt="tech btn">
-        </div>
-        <div class="tech-3">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/html-5_1_qzt4q3.png" alt="tech btn">
-        </div>
-        <div class="tech-4">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/css-3_dvtbkf.png" alt="tech btn">
-        </div>
-        <div class="tech-5">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/js_bnra77.png" alt="tech btn">
-        </div>
-        <div class="tech-6">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/nodejs_tjibtg.png" alt="tech btn">
-        </div>
-      </div>
+
 
     </section>
 
     <!-- My writing -->
-    <section id="myWriting" class="my-writing">
-      <h2>This is where you can find my writing. Go on, take a look.</h2>
-      <div class="writing-wrapper">
-        <div class="my-medium">
-          <h2>This is my blog on medium! I have written about my journey through learning to code and provided technical insights</h2>
-          <div class="medium-btn">
-            <a href="https://medium.com/@tylermoline95">
-              <p>Click here to check it out!</p>
-            </a>
+    <section id="myWork" class="my-work">
+      <h2>Below you will find work I currently have and have completed in the past</h2>
+      <div class="work-wrapper">
+        <div class="ubb-website work-done">
+          <p class="big-p">This is Utah Basement Builders website, they are a local construction company that needed a simple landing page. take a look below or visit the site yourself!</p>
+          <a href="https://utahbasementbuilders.com/">
+          <div class="website-btn">
+              <p>Utah Basement Builders</p>
           </div>
+          </a>
         </div>
-        <div class="my-linkedin">
-          <h2>Here is my linkedin account! checkout some of my connections and more information about me!</h2>
-          <div class="linkedin-btn">
-            <a href="https://www.linkedin.com/in/tyler-moline-b30a2321b/">
-              <p>Click here to view my linkedin!</p>
-            </a>
+        
+        <div class="tsqd-website work-done">
+          <p class="big-p">This is T-squared constructions website, they are a local construction company that needed a simple landing page. take a look below or visit the site yourself!</p>
+          <a href="https://www.tsquaredconstruct.com/">
+          <div class="website-btn">
+              <p>T-squared Construction</p>
           </div>
-      </div>
+          </a>
+          <!-- <iframe src="https://www.tsquaredconstruct.com/" frameborder="0"></iframe> -->
+        </div>
+        <div class="node-calc"></div>
       </div>
     </section>
 
@@ -306,7 +235,7 @@
               <p>Utah Basement Builders</p>
           </div>
           </a>
-          <iframe src="https://utahbasementbuilders.com/" frameborder="0" loading></iframe>
+          <!-- <iframe src="https://utahbasementbuilders.com/" frameborder="0" loading></iframe> -->
         </div>
         
         <div class="tsqd-website">
@@ -316,7 +245,7 @@
               <p>T-squared Construction</p>
           </div>
           </a>
-          <iframe src="https://www.tsquaredconstruct.com/" frameborder="0"></iframe>
+          <!-- <iframe src="https://www.tsquaredconstruct.com/" frameborder="0"></iframe> -->
         </div>
         <div class="node-calc"></div>
       </div>

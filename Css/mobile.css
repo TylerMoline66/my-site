@@ -65,24 +65,26 @@
     height: var(--size-40);
   }
 
-  .big-main-img {
+  /* .big-main-img {
     top: var(--size-50);
-  }
+  } */
 
-  .header-bubbles {
+  /* .header-bubbles {
     flex-direction: column;
   }
 
   .header-bubbles lord-icon {
     width: 100px !important;
     height: 100px !important;
-  }
+  } */
 
   .main-header {
     width: 70%;
     margin: auto;
     left: 17vw;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .left-sticky {
@@ -122,14 +124,14 @@
     font-size: var(--size-16);
   }
 
-  .tech-1,
+  /* .tech-1,
   .tech-2,
   .tech-3,
   .tech-4,
   .tech-5,
   .tech-6 {
     height: var(--size-100);
-  }
+  } */
 
   .my-medium,
   .my-linkedin {
