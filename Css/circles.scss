@@ -79,7 +79,7 @@
       &:nth-child(#{$i}) {
         transform: translate(-50%, -50%)
           rotate(($i * 360 / 8) * 1deg)
-          translate(-5rem)
+          translate(-3rem)
           rotate(($i * 360 / 8) * -1deg);
       }
     }
