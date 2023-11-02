@@ -20,12 +20,22 @@
       href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Code+Pro:wght@400;500;600;800&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <link rel="stylesheet" href="./Css/default.css" />
     <link rel="stylesheet" href="./Css/index.css" />
     <link rel="stylesheet" href="./Css/mobile.css" />
+    <link rel="stylesheet" href="./Css/circles.css" />
+
+    <script src="https://kit.fontawesome.com/657f2268bf.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div id="clickableDiv" class="hiding-sticky-section">
+      <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1697600185/Tylers-site/at-sign_urh3er.png" alt="">
+   </div>
     <!-- NAVBAR -->
     <nav id="topNav" class="navbar nav">
       <div class="container">
@@ -51,46 +61,25 @@
         <ul class="navbar-nav">
           <li class="nav-link">
             <a href="#homeSection">
-              <lord-icon
-                src="https://cdn.lordicon.com/gmzxduhd.json"
-                trigger="loop-on-hover"
-                colors="primary:#b4b4b4,secondary:#e86830"
-                style="width: 80px; height: 80px"
-              >
-              </lord-icon
-            ></a>
+              Home
+            </a>
           </li>
           <li class="nav-link">
             <a href="#aboutMe">
-              <lord-icon
-                src="https://cdn.lordicon.com/nobciafz.json"
-                trigger="loop-on-hover"
-                colors="primary:#b4b4b4,secondary:#e86830"
-                style="width: 80px; height: 80px"
-              >
+              About Me
               </lord-icon
             ></a>
           </li>
           <li class="nav-link">
-            <a href="#myWriting">
-              <lord-icon
-                src="https://cdn.lordicon.com/wloilxuq.json"
-                trigger="loop-on-hover"
-                colors="primary:#b4b4b4,secondary:#e86830"
-                state="hover-1"
-                style="width: 80px; height: 80px"
-              >
+            <a href="#myWork">
+              My work
+              
               </lord-icon>
             </a>
           </li>
           <li class="nav-link">
             <a href="#myProjects">
-              <lord-icon
-                src="https://cdn.lordicon.com/qhgmphtg.json"
-                trigger="loop-on-hover"
-                colors="primary:#b4b4b4,secondary:#e86830"
-                style="width: 80px; height: 80px"
-              >
+             My Projects
               </lord-icon>
             </a>
           </li>
@@ -99,7 +88,9 @@
     </nav>
 
         <!-- Aside sticky socials -->
-        <section class="left-sticky">
+
+        
+        <section id="leftSticky" class="left-sticky animate__animated animate__slideInUp ">
           <div class="sticky-socials">
             <div class="email-info">
               <a href="mailto:tylermoline95@gmail.com">tylermoline95@gmail.com</a>
@@ -127,111 +118,59 @@
         /></a>
             </div>
         </section>
-
-    <!-- Main first image -->
-    <section>
-      <div id="pageTop" class="big-main-img"></div>
-    </section>
+  
 
     <!-- HEADER -->
     <header>
-      <div class="full-header">
+      <div id="homeSection"  class="full-header">
         <div class="main-header">
-<div class="header-bubbles">
-  <lord-icon
-  src="https://cdn.lordicon.com/dtgezzsi.json"
-  trigger="loop"
-  delay="1500"
-  colors="primary:#b4b4b4,secondary:#e86830"
-  style="width:250px;height:250px">
-</lord-icon>
-        <h1>Hello there!</h1>
-</div>
-          <h2>My Name is Tyler Moline, thanks for dropping by!</h2>
+          <div class="header-words">
+            <h1>Welcome!</h1>
           <p>
-            Software Developer and web desinger based out of Utah county. I love
-            to write clean code that makes sense, is simple and does its task
-            well. Welcome to my site! come and take a look around, learn a
-            little about me and see some work ive completed!
-          </p>
+            Hello! Welcome to my personal corner of the internet! I'm excited to share my passion and projects with you. Whether it's web design, gaming, coding, or other creative pursuits, I've put my heart and soul into each one. Join me in exploring the digital world I've created!
+          </p> 
+          </div>
+         
+
+            <div class="circle-container">
+              <svg class="guide-circle" viewbox="0 0 64 64"><circle r="28" cx="32" cy="32" class="circle"/></svg>
+              <ul>
+                
+                  <li><div class="tech-1">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058645/Tylers-site/github_iphgmj.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-2">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/git_ysri3p.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-3">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/html-5_1_qzt4q3.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-4">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/css-3_dvtbkf.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-5">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/js_bnra77.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-6">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1696474578/Tylers-site/library_1_dkhplj.png" alt="tech btn">
+                  </div></li>
+                  <li><div class="tech-7">
+                    <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1696457600/Tylers-site/python_1_jsouhi.png" alt="tech btn">
+                  </div></li>
+                  <li> <div class="tech-8">
+                  <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1696457656/Tylers-site/sql-server_1_ylsqi6.png" alt="tech btn">
+                </div></li>
+               
+              </ul>	
+            </div>
+        
+          
+          </div>
         </div>
+      </header>
+      <div class="down-arrow">
+        <a href="#myWork"><img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1697580763/Tylers-site/down-arrow_te5azv.png" alt=""></a>
       </div>
-    </header>
-
-
-
-    <!-- Home section -->
-    <section id="homeSection" class="home-section">
-      <div class="moving-icons-home">
-        <div class="icon-and-info-wrapper">
-          <a href="#homeSection">
-            <lord-icon
-              src="https://cdn.lordicon.com/hjbsbdhw.json"
-              trigger="loop-on-hover"
-              colors="primary:#3a3347,secondary:#e86830,tertiary:#b26836,quaternary:#ebe6ef"
-              style="width: 250px; height: 250px"
-            >
-            </lord-icon>
-          </a>
-          <h2>Home</h2>
-          <p>
-            This is my sites home, a little intro about me and access to the other
-            sections of the page. Home is where the heart is
-          </p>
-        </div>
-
-        <div class="icon-and-info-wrapper">
-          <a href="#aboutMe">
-            <lord-icon
-            src="https://cdn.lordicon.com/jnlncdtk.json"
-            trigger="loop-on-hover"
-            colors="primary:#646e78,secondary:#f4dc9c,tertiary:#4faef9,quaternary:#f3c3ba,quinary:#e7e2eb"
-            style="width: 250px; height: 250px"
-          >
-          </lord-icon>
-          </a>
-         <h2>About Me</h2>
-          <p>
-            This section is a little bit about me, Who I am and what drives me,
-            and also about the technologies I know!
-          </p>
-        </div>
-
-        <div class="icon-and-info-wrapper">
-          <a href="#myWriting">
-            <lord-icon
-            src="https://cdn.lordicon.com/bxxnzvfm.json"
-            trigger="loop-on-hover"
-            style="width: 250px; height: 250px"
-          >
-          </a>
-
-          </lord-icon>
-          <h2>Writing</h2>
-          <p>
-            Here you will find writing I have done through my learning process,
-            you can also find my linkedin account here!
-          </p>
-        </div>
-
-        <div class="icon-and-info-wrapper">
-          <a href="#myProjects">
-            <lord-icon
-            src="https://cdn.lordicon.com/pxecqsgb.json"
-            trigger="loop-on-hover"
-            colors="primary:#faddd1,secondary:#b4b4b4"
-            style="width: 250px; height: 250px"
-          >
-          </a>
-          </lord-icon>
-          <h2>Projects</h2>
-          <p>
-            This is where you can find projects I have worked on and completed.
-            Also some links to my git hub profile and such!
-          </p>
-        </div>
-      </div>
-    </section>
 
     <!-- About me section -->
     <section id="aboutMe" class="about-me">
@@ -239,86 +178,225 @@
         <div class="about-me-img-info">
           <div class="pic-and-bullet">
             <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650395686/Tylers-site/IMG_6701_rvdgj0.jpg" alt="Tys photo">
-            <ol>
-              <li>Family</li>
-              <li>Coding</li>
-              <li>Games</li>
-            </ol>
+           
           </div>
-          <p>Tyler Moline, Thats my name, coding is the game. I absolutely love coding! Being able to create so much with a keyboard and mouse still takes me breath away. Before my career in tech I had a totally different life, I worked in construction since highschool, in fact before my journey into tech started I owned my own construction company! After much thought, I realized construction was always an easy choice for me, easy to get into, even relatively easy to start a company. Even though it was easy it wasn't what I was passionate about. So with that thought I started looking, and I couldn't find anything I felt passionate about, that is till I found coding. A whole world where you can build and create from your finger tips. I love it! Im passionate about all things tech, I love learning and staying frequent! I started teaching myself small things, took some inexpensive beginner courses and later found devslopes web academy! Weather your here to look at me for a job or to see if I can help you with a personal project reach out to me! I would love to help you!</p>
+         <div class="about-me-paragraph">
+          <p>
+            After spending several years in the construction industry, I had a profound realization. I had consistently opted for the easy route, but it was time for a change. The world of coding, I soon discovered, was where my true passion resided. Taking a leap of faith, I ventured beyond my comfort zone to pursue this new calling.
+            
+            Yet, beyond the screen and keyboard, my heart is firmly rooted in my incredible family. Quality time with my two wonderful kids and my loving wife is what life's all about for me. We savor the simple joys life has to offer. And when I'm not in dad mode or immersed in coding, I dive into gaming – be it around a table with friends or online. It's my way of unwinding and forging connections through virtual adventures.</p>
+         </div>
         </div>
       </div>
-      <div class="technologies">
-        <h2>Heres a look into some of the technologies im comfortable with</h2>
-        <div class="tech-1">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058645/Tylers-site/github_iphgmj.png" alt="tech btn">
-        </div>
-        <div class="tech-2">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/git_ysri3p.png" alt="tech btn">
-        </div>
-        <div class="tech-3">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/html-5_1_qzt4q3.png" alt="tech btn">
-        </div>
-        <div class="tech-4">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/css-3_dvtbkf.png" alt="tech btn">
-        </div>
-        <div class="tech-5">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/js_bnra77.png" alt="tech btn">
-        </div>
-        <div class="tech-6">
-          <img src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1650058644/Tylers-site/nodejs_tjibtg.png" alt="tech btn">
-        </div>
-      </div>
+
 
     </section>
 
-    <!-- My writing -->
-    <section id="myWriting" class="my-writing">
-      <h2>This is where you can find my writing. Go on, take a look.</h2>
-      <div class="writing-wrapper">
-        <div class="my-medium">
-          <h2>This is my blog on medium! I have written about my journey through learning to code and provided technical insights</h2>
-          <div class="medium-btn">
-            <a href="https://medium.com/@tylermoline95">
-              <p>Click here to check it out!</p>
-            </a>
+    <!-- My work -->
+    <section id="myWork" class="my-work">
+      <h2>WORK!</h2>
+      <p>Because Netflix and food delivery don't pay for themselves.</p>
+      <h3>Below you will find work I currently have and have completed in the past</h3>
+      <div class="work-wrapper">
+
+        <div class="ubb-website work-done">
+          <div class="ubb-information">
+            <div class="ubb-words">
+              <h3>Utah Basement Builders</h3>
+              <p class="big-p">This construction company was in need of a website for potential clients to search up their previous work and information about them, they even wanted a calculator for users to get a rough estimate of their projects cost! using <strong>Cloudinary, Javascript, HTML</strong> and <strong>CSS</strong> This site was created from scratch! </p>
+            </div>
+            <div class="ubb-logo"><i class="fa-solid fa-hammer"></i></div>
+          </div>
+          <a target="_blank" href="https://utahbasementbuilders.com/">
+          <div class="website-buttons">
+            <div class="website-btn">
+              <p>Live Site</p>
+          </div>
+          <a target="_blank"  href="https://github.com/TylerMoline66/Ubb-website">
+            <div class="website-btn">
+              <p>Github Repo</p>
+            </div>
+          </a>
+          </div>
+          </a>
+        </div>
+
+        <div class="tsqd-website work-done">
+          <div class="tsqd-information">
+            <div class="tsqd-words">
+              <h3>T-Squared Construction</h3>
+              <p class="big-p"> Previously this company had a wix site, but wanted a more custom site developed for themselves. With no previous designs this site was created using vanilla <strong>HTML</strong> and <strong>CSS</strong> </p>
+            </div>
+            <div class="tsqd-logo"><i class="fa-solid fa-hammer"></i></div>
+          </div>
+          <a  target="_blank" href="https://www.tsquaredconstruct.com/">
+          <div class="website-buttons">
+            <div class="website-btn">
+              <p>Live Site</p>
+          </div>
+          </a>
+          <a target="_blank"  href="https://github.com/TylerMoline66/tsqd-website">
+            <div class="website-btn">
+              <p>Github Repo</p>
+            </div>
+          </a>
+        </div>
+        </div>
+
+        <div class="tsqd-website work-done">
+          <div class="tsqd-information">
+            <div class="tsqd-words">
+              <h3>Pantry-Partner</h3>
+              <p class="big-p"> 
+                When I joined the recipe tracking site, it felt like stepping into "someone else's kitchen," and I quickly realized the potential for improvements. The platform was all about sharing and discovering culinary delights, essentially a social media hub for food enthusiasts. My role was pivotal, involving extensive work on both the front end and back end of the project. I dived into enhancing the user interface, improving recipe organization, and making the whole experience more intuitive. It was like taking a classic recipe and giving it a modern twist to make it even more delicious. In the end, the revamped app served up a delightful experience for foodies, making it even more enjoyable to share and savor culinary creations. <strong>HTML, JavaScript, React.js, Python, Flask, SQL Alchemy</strong> and <strong>SCSS</strong> were the main technologies I used through this task</p>
+            </div>
+            <div class="tsqd-logo"><i class="fa-solid fa-utensils"></i></div>
           </div>
         </div>
-        <div class="my-linkedin">
-          <h2>Here is my linkedin account! checkout some of my connections and more information about me!</h2>
-          <div class="linkedin-btn">
-            <a href="https://www.linkedin.com/in/tyler-moline-b30a2321b/">
-              <p>Click here to view my linkedin!</p>
-            </a>
+
+        <div class="tsqd-website work-done">
+          <div class="tsqd-information">
+            <div class="tsqd-words">
+              <h3>BHI</h3>
+              <p class="big-p"> During my involvement in the BHI project, I took on several problems that needed to be solved to enhance their front end. One notable challenge we faced was optimizing the web application for mobile screens, ensuring a seamless user experience across various devices. With a strong focus on responsive design and user accessibility, I crafted and implemented all the styles for the front-end of the app. This involved a thorough understanding of CSS, media queries, and the intricacies of making the interface adapt gracefully to different screen sizes. The successful adaptation of the BHI web app for mobile screens not only improved the project's user engagement but also showcased the power of React in delivering versatile and user-friendly solutions. Like I mentioned I used <strong>HTML, JavaScript, React.js</strong> and <strong>SCSS</strong> through this project.</p>
+            </div>
+            <div class="tsqd-logo"><i class="fa-solid fa-hammer"></i></div>
           </div>
-      </div>
+        </div>
+
+        <div class="ubb-website work-done">
+          <div class="ubb-information">
+            <div class="ubb-words">
+              <h3>DevPipeline</h3>
+              <p class="big-p">Similar to the site above, this site previously was a wix website, but looking into what they wanted and needed they decided to make their own custom web application. using <strong>Python, Javascript, HTML</strong> and <strong>CSS</strong> This site has a lot of fun features!  </p>
+            </div>
+            <div class="ubb-logo"><i class="fa-solid fa-code"></i></div>
+          </div>
+          <a target="_blank" href="https://devpipeline.com/">
+          <div class="website-buttons">
+            <div class="website-btn">
+              <p>Live Site</p>
+          </div>
+          </div>
+          </a>
+        </div>
+
       </div>
     </section>
 
     <!-- MY projects -->
-    <section id="myProjects" class="my-projects">
-      <h2>Here is some of the work I have completed in the past and projects I have created, feel free to look around! My github will be linked at the bottom of this section!</h2>
-      <div class="projects-wrapper">
-        <div class="ubb-website">
-          <p class="big-p">This is Utah Basement Builders website, they are a local construction company that needed a simple landing page. take a look below or visit the site yourself!</p>
-          <a href="https://utahbasementbuilders.com/">
-          <div class="website-btn">
-              <p>Utah Basement Builders</p>
+    <section id="myProjects" class="my-work">
+      <h2>Projects!</h2>
+      <p>Sometimes these projects are like onions – they have layers, they can make you cry, and sometimes, you just wish you had a giant ogre to help.</p>
+      <h3>Below you will find personal I have taken on!</h3>
+      <div class="work-wrapper">
+
+        <div class="ubb-website work-done">
+          <div class="ubb-information">
+            <div class="ubb-words">
+              <h3>E commerce store -- DapperDeals</h3>
+              <p class="big-p">This is a mock e-commerce website, fetching store items from a 3rd party API, showcasing them and having a search feature. There is also a cart page that tracks the quantity of all items. This was a fun one to build out! I used <strong>React.js, Javascript, HTML</strong> and <strong>SCSS</strong></p>
+            </div>
+            <div class="ubb-logo"><i class="fa-solid fa-cart-shopping"></i></div>
+          </div>
+          <a target="_blank" href="https://tyler-moline.github.io/react-capstone/">
+          <div class="website-buttons">
+            <div class="website-btn">
+              <p>Live Site</p>
+          </div>
+          <a target="_blank"  href="https://github.com/Tyler-Moline/react-capstone">
+            <div class="website-btn">
+              <p>Github Repo</p>
+            </div>
+          </a>
           </div>
           </a>
-          <iframe src="https://utahbasementbuilders.com/" frameborder="0" loading></iframe>
         </div>
-        
-        <div class="tsqd-website">
-          <p class="big-p">This is T-squared constructions website, they are a local construction company that needed a simple landing page. take a look below or visit the site yourself!</p>
-          <a href="https://www.tsquaredconstruct.com/">
-          <div class="website-btn">
-              <p>T-squared Construction</p>
+
+        <div class="tsqd-website work-done">
+          <div class="tsqd-information">
+            <div class="tsqd-words">
+              <h3>Binary Calculator</h3>
+              <p class="big-p"> For this project, I made a calculator that can do math on binary numbers. it takes in 2 64bit numbers and is able to do basic math with them! Dont get lost in the 1's and 0's! <strong>Python</strong> was the language this was written in </p>
+            </div>
+            <div class="tsqd-logo"><i class="fa-solid fa-calculator"></i></div>
+          </div>
+          <a  target="_blank" href="https://www.tsquaredconstruct.com/">
+          <div class="website-buttons">
+            <div class="website-btn">
+              <p>Live Site</p>
           </div>
           </a>
-          <iframe src="https://www.tsquaredconstruct.com/" frameborder="0"></iframe>
+          <a target="_blank"  href="https://github.com/TylerMoline66/binary_calc">
+            <div class="website-btn">
+              <p>Github Repo</p>
+            </div>
+          </a>
         </div>
-        <div class="node-calc"></div>
+        </div>
+
+        <div class="tsqd-website work-done">
+          <div class="tsqd-information">
+            <div class="tsqd-words">
+              <h3>React Widgets</h3>
+              <p class="big-p"> Previously this company had a wix site, but wanted a more custom site developed for themselves. With no previous designs this site was created using vanilla <strong>HTML</strong> and <strong>CSS</strong> </p>
+            </div>
+            <div class="tsqd-logo"><i class="fa-solid fa-laptop-code"></i></div>
+          </div>
+          <a  target="_blank" href="https://www.tsquaredconstruct.com/">
+          <div class="website-buttons">
+            <div class="website-btn">
+              <p>Live Site</p>
+          </div>
+          </a>
+          <a target="_blank"  href="https://github.com/Tyler-Moline/widgets">
+            <div class="website-btn">
+              <p>Github Repo</p>
+            </div>
+          </a>
+        </div>
+        </div>
+
+        <div class="tsqd-website work-done">
+          <div class="tsqd-information">
+            <div class="tsqd-words">
+              <h3>Random Person Picker</h3>
+              <p class="big-p"> Using Async JavaScipt and a 3rd party API, we fetch all the names for a class, put them in a list and then allows you to change the weight of the person that was chosen. once a person is chosen they will not be chosen again till the list is reset! <strong>HTML, JavaSCript</strong> and <strong>CSS</strong> were used for this project</p>
+            </div>
+            <div class="tsqd-logo"><i class="fa-solid fa-person"></i></div>
+          </div>
+          <a  target="_blank" href="https://tyler-moline.github.io/js-capstone/">
+          <div class="website-buttons">
+            <div class="website-btn">
+              <p>Live Site</p>
+          </div>
+          </a>
+          <a target="_blank"  href="https://github.com/Tyler-Moline/js-capstone">
+            <div class="website-btn">
+              <p>Github Repo</p>
+            </div>
+          </a>
+        </div>
+        </div>
+
+
+        <div class="ubb-website work-done">
+          <div class="ubb-information">
+            <div class="ubb-words">
+              <h3>Python Capstone?</h3>
+              <p class="big-p">Similar to the site above, this site previously was a wix website, but looking into what they wanted and needed they decided to make their own custom web application. using <strong>Python, Javascript, HTML</strong> and <strong>CSS</strong> This site has a lot of fun features!  </p>
+            </div>
+            <div class="ubb-logo"><i class="fa-solid fa-graduation-cap"></i></div>
+          </div>
+          <a target="_blank" href="https://devpipeline.com/">
+          <div class="website-buttons">
+            <div class="website-btn">
+              <p>Live Site</p>
+          </div>
+          </div>
+          </a>
+        </div>
+
       </div>
     </section>
 
@@ -326,7 +404,7 @@
     <hr>
     <footer>
       <h3>Thank you for stopping by!</h3>
-      <a href="#pageTop">
+      <a href="#homeSection">
         <div class="back-to-top">
           <p>All the way up!</p>
         </div>

@@ -1,0 +1,87 @@
+.circle-container {
+  position: relative;
+  display: flex;
+  place-items: center;
+  height: 100%;
+  margin: 0 auto;
+  animation: rotateImg 170s linear infinite;
+
+  img {
+    width: var(--size-50);
+    animation: rotateInnerImg 170s linear infinite;
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  .guide-circle {
+    display: none;
+  }
+
+  .circle {
+    fill: none;
+    stroke-width: 3px;
+    stroke: #fc0;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  ul > li {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s cubic-bezier(0.5, 0, 0.35, 1);
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+
+    @for $i from 1 through 8 {
+      &:nth-child(#{$i}) {
+        transform: translate(-50%, -50%)
+          rotate(($i * 360 / 8) * 1deg)
+          translate(-8rem)
+          rotate(($i * 360 / 8) * -1deg);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .circle-container {
+    margin: 0px;
+    margin-top: 200px;
+
+    img {
+      width: 40px;
+    }
+  }
+
+  ul > li {
+    @for $i from 1 through 8 {
+      &:nth-child(#{$i}) {
+        transform: translate(-50%, -50%)
+          rotate(($i * 360 / 8) * 1deg)
+          translate(-5rem)
+          rotate(($i * 360 / 8) * -1deg);
+      }
+    }
+  }
+}
