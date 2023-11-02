@@ -400,6 +400,11 @@ header h1 {
   font-size: 30px;
 }
 
+.work-done {
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+}
+
 .work-done:hover {
   transition: ease-in-out 0.5s;
   background-color: var(--main-background);
@@ -451,8 +456,8 @@ header h1 {
 }
 
 .tsqd-website {
-  margin-top: var(--size-100);
-  margin-bottom: var(--size-100);
+  /* margin-top: var(--size-100);
+  margin-bottom: var(--size-100); */
 }
 
 .tsqd-website p,
