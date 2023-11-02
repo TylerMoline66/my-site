@@ -311,7 +311,7 @@ header h1 {
 
 .about-me {
   margin: auto;
-  margin-top: var(--size-300);
+  margin-top: var(--size-400);
   width: 100%;
   margin-bottom: var(--size-200);
   display: flex;
