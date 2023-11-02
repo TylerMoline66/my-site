@@ -95,6 +95,7 @@
 
   .down-arrow img {
     width: 10%;
+    display: none;
   }
 
   .home-section {
